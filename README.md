@@ -1,4 +1,4 @@
-Website is deployed in <a href="https://bit.ly/3yy6NX6">Website</a>
+Website is deployed in <a href="https://loopstudio-2021.netlify.app/">Website</a>
 
 ## Available Scripts
 
