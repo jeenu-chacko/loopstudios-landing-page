@@ -29,7 +29,11 @@ function Gallery() {
     
     
     </div>
-   <div class="grid gap-4 p-10 lg:hidden">
+    <div class="text-xl p-2 lg:hidden">
+      <h1>OUR CREATIONS</h1>
+      
+        </div>
+   <div class="grid gap-4 justify-center grid-flow-row lg:hidden p-3">
 
         <img src="/mobile/image-deep-earth.jpg" 
         class="transition duration-500 transform hover:-translate-y-1 hover:scale-110"/> 
@@ -44,7 +48,7 @@ function Gallery() {
         <img src="/mobile/image-fisheye.jpg" class="transition duration-500 transform hover:-translate-y-1 hover:scale-110"/>
     
 
-    <div>
+    <div class="p-4">
       <button class="border px-4 py-2 transition duration-200 transform hover:-translate-y-1 hover:scale-105 border-black">SEE ALL</button>
     </div>
  </div>

@@ -20,14 +20,14 @@ function Navbar() {
             <div>
                 <img src="/desktop/logo.svg"  alt="" />
             </div>
-            <div onClick={handleClick} class="z-50 pl-4">
-                {click ? <i className="fas fa-times fa-lg"></i>: <i className="fas fa-bars fa-lg "></i>}
+            <div onClick={handleClick} class="pl-4 " >
+                {click ? <i className="fas fa-times fa-lg "></i>: <i className="fas fa-bars fa-lg "></i>}
             </div>
      </div>
      <div >
              
             <div  className={click ? 'nav-menu active' : 'nav-menu'}>
-
+            <div><i className="fas fa-times" onClick={handleClick } ></i></div>
             <div class="nav-links " onClick={handleClick }>About</div>
             <div class="nav-links " onClick={handleClick} >Careers</div>
             <div class="nav-links " onClick={handleClick }>Events</div>
